@@ -1,4 +1,7 @@
 # **Food Vision Using an EffecientNetX and Tensorflow**
+
+[The main notbook with all the details](https://github.com/realnihal/Food-Vision-Using-Tensorflow/blob/main/Food_Vision_Using_Tensorflow.ipynb)
+
 We are using the **Food101** standard database to create a deep learning model that can tell the difference and make predictions between 101 classes of food. using all 75,750 training images and 25,250 testing images. We will also use mixed learning to increase the speed of the training process.
 
 Our goal is to beat the original [DeepFood ](https://arxiv.org/ftp/arxiv/papers/1606/1606.05675.pdf) paper. they have an accuracy of 77.4%.
@@ -8,6 +11,10 @@ We will use the power of transfer learning by incorporating the EfficientNetX ar
 **Check out the notebook for a complete detailed explanation of the code**
 
 **You can find the models in this github repository.**
+
+1. [The full Fine-Tuned model that was trained](https://github.com/realnihal/Food-Vision-Using-Tensorflow/tree/main/efficientnetb0_fine_tuned_101_classes_mixed_precision)
+2. [Just the Feature Extraction model](https://github.com/realnihal/Food-Vision-Using-Tensorflow/tree/main/101_food_feature_extract_mixedpred_model)
+
 ## Conclusions
 
 We acheived an accuracy of about 78.3%. With this we beat the score set by the original [DeepFood](https://arxiv.org/ftp/arxiv/papers/1606/1606.05675.pdf) paper.
