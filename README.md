@@ -22,3 +22,7 @@ We acheived an accuracy of about 78.3%. With this we beat the score set by the o
 It feels great that we achieved our goal. But for those who were keen, our training accuracy was very high compared to our test accuracy. This is probably due to over fitting. On investigation I found out that the [EfficientNet](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet) model was trainied upon the [ImageNet](https://www.image-net.org/index.php) dataset. These images closely resemble our images. due to this our model ended up slightly overfitting.
 
 **Nevertheless, we acheived our objective and that's all that matters.**
+
+I have trid using more complex versions of EffiecientNet and got the following results:
+
+1. EfficientNetB3 - 81.85%
