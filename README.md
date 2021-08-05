@@ -7,7 +7,7 @@ We will use the power of transfer learning by incorporating the EfficientNetX ar
 
 **Check out the notebook for a complete detailed explanation of the code**
 
-
+**You can find the models in this github repository.**
 ## Conclusions
 
 We acheived an accuracy of about 78.3%. With this we beat the score set by the original [DeepFood](https://arxiv.org/ftp/arxiv/papers/1606/1606.05675.pdf) paper.
