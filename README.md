@@ -1,5 +1,6 @@
 # **Food Vision Using an EffecientNetX and Tensorflow**
 
+[link to an article version of the project](https://realnihal.github.io/2021/08/11/food-vision.html)
 [The main notbook with all the details](https://github.com/realnihal/Food-Vision-Using-Tensorflow/blob/main/Food_Vision_Using_Tensorflow.ipynb)
 
 We are using the **Food101** standard database to create a deep learning model that can tell the difference and make predictions between 101 classes of food. using all 75,750 training images and 25,250 testing images. We will also use mixed learning to increase the speed of the training process.
